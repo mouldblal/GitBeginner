@@ -1,0 +1,9 @@
+package fr.blal.gitbeginner;
+
+public class EvenNumbers {
+    public static void printEvenNumber(int i) {
+        System.out.println("Even numbers upto "+i);
+        for(int x=0;x<i;x=x+2)
+            System.out.println(x);
+    }
+}
